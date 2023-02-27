@@ -1,0 +1,117 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400&family=Montserrat:wght@500;600&display=swap');
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    min-width: 1920px;
+}
+
+.desconto{
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    width: 1920px;
+}
+
+.nome {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px 0 16px;
+}
+.fundo{
+    background-color: #181818;
+    background-image: url(./assets/wallpaper.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1920px;
+    height: 378px;
+    background-position: center;
+}
+
+.wallpaper {
+    width: 1920px;
+    height: 378px;
+    background: rgba(24, 24, 24, 0.5);
+    backdrop-filter: blur(4px);
+    padding: 104px 100px;
+    line-height: 26px;
+    display: flex;
+    gap: 26px;
+    flex-direction: column;
+}
+
+.wallpaper > span {
+    font-size: 48px;
+    font-weight: 600;
+    color: white; 
+}
+
+.wallpaper > p {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+    min-width: 1920px;
+    align-items: center;
+    margin-top: 70px;
+    gap: 17px;
+    margin-bottom: 65px;
+}
+
+.destaque > span {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.destaque > p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #474747;
+}
+
+.tenis > ul {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 15px;
+    padding: 100px;
+    width: 1920px;
+    
+}
+
+.tenis > ul > li {
+    width: 415px;
+    height: 302px;
+    background: #EBE9EA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+    width: 1920px;
+}
+
+
