@@ -9,12 +9,13 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
+    min-width: 100vw;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    min-width: 1920px;
+    width: 100%;
 }
 
 .desconto{
@@ -23,7 +24,7 @@ body{
     font-size: 16px;
     text-align: center;
     padding: 20px 0;
-    width: 1920px;
+    width: 100%;
 }
 
 .nome {
@@ -37,18 +38,18 @@ body{
     background-image: url(./assets/wallpaper.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1920px;
+    width: 100%;
     height: 378px;
     background-position: center;
 }
 
 .wallpaper {
-    width: 1920px;
+    width: 100%;
     height: 378px;
     background: rgba(24, 24, 24, 0.5);
     backdrop-filter: blur(4px);
     padding: 104px 100px;
-    line-height: 26px;
+    line-height: 1;
     display: flex;
     gap: 26px;
     flex-direction: column;
@@ -66,10 +67,28 @@ body{
     color: white;
 }
 
+@media screen and (max-width: 768px) {
+    .wallpaper > span {
+        font-size: 36px;
+    }
+    
+    .wallpaper > p {
+        font-size: 16px;
+    }
+}
+
+.conteudo-principal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .destaque {
     display: flex;
     flex-direction: column;
-    min-width: 1920px;
+    min-width: 100%;
     align-items: center;
     margin-top: 70px;
     gap: 17px;
@@ -87,12 +106,19 @@ body{
     color: #474747;
 }
 
+.tenis {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 120em;
+}
+
 .tenis > ul {
     display: flex;
     flex-flow: row wrap;
     gap: 15px;
     padding: 100px;
-    width: 1920px;
+    width: 100%;
     
 }
 
@@ -111,7 +137,7 @@ body{
     font-size: 16px;
     text-align: center;
     padding: 20px 0;
-    width: 1920px;
+    width: 100%;
 }
 
 
